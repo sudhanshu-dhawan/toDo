@@ -42,9 +42,6 @@ Delete a task.
 Verify it disappears from the list.
 
 5️⃣ Filters
-
-Test All, Active, and Completed filters.
-
 Verify correct tasks are shown under each filter.
 
 ✅ Persistence Testing (LocalStorage)
@@ -60,14 +57,6 @@ Open the app in incognito or another browser.
 
 Verify localStorage is fresh and app works.
 
-✅ Bonus Testing
-14️⃣ Edge Case Testing
-
-Add empty task — should not allow.
-
-Add long task text — verify wrapping/scroll.
-
-Delete all tasks — app should not break.
 
 
 
