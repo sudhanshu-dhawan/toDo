@@ -1,6 +1,20 @@
 # React + Vite
 
-Go to the link : 
+Go to the link : https://to-do-three-rose.vercel.app/
+
+OR
+
+📦 Installation
+1️⃣ Clone the Repository by git clone
+
+2️⃣ Navigate to the Project Directory
+cd todo
+
+3️⃣ Install Dependencies
+npm install
+
+4️⃣ Run the Development Server
+npm run dev
 
 ✅ Basic Functionality Testing
 1️⃣ Load the App
@@ -54,3 +68,7 @@ Add empty task — should not allow.
 Add long task text — verify wrapping/scroll.
 
 Delete all tasks — app should not break.
+
+
+
+
