@@ -1,12 +1,56 @@
 # React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Go to the link : 
 
-Currently, two official plugins are available:
+✅ Basic Functionality Testing
+1️⃣ Load the App
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Open the deployed URL on Vercel.
 
-## Expanding the ESLint configuration
+Verify the app loads without errors.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+2️⃣ Add Tasks
+
+Add new tasks.
+
+Verify they appear correctly.
+
+3️⃣ Toggle Task Completion
+
+Mark tasks as completed.
+
+Verify strikethrough or visual indicator appears.
+
+4️⃣ Delete Tasks
+
+Delete a task.
+
+Verify it disappears from the list.
+
+5️⃣ Filters
+
+Test All, Active, and Completed filters.
+
+Verify correct tasks are shown under each filter.
+
+✅ Persistence Testing (LocalStorage)
+6️⃣ Refresh Page
+
+After adding tasks, refresh the page.
+
+Verify tasks are still there (localStorage working).
+
+7️⃣ Different Browser / Incognito Mode
+
+Open the app in incognito or another browser.
+
+Verify localStorage is fresh and app works.
+
+✅ Bonus Testing
+14️⃣ Edge Case Testing
+
+Add empty task — should not allow.
+
+Add long task text — verify wrapping/scroll.
+
+Delete all tasks — app should not break.
